@@ -1,6 +1,6 @@
 <?php 
 $ip = $_SERVER['REMOTE_ADDR']; // 取得指定伺服器變數
-print'IP address'.''.$IP.'';
+print 'IP address'.''.$ip.'';
 ?>
 
 <table border="1">
@@ -15,6 +15,3 @@ foreach ($_SERVER as $key=>$value) {
    echo "<td>" . $value . "</td></tr>";
 }
 ?>
-</table>
-</body>
-</html>
